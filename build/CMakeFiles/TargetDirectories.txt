@@ -1,0 +1,3 @@
+/home/narval/programing/proyects/narvar/build/CMakeFiles/narvar.dir
+/home/narval/programing/proyects/narvar/build/CMakeFiles/edit_cache.dir
+/home/narval/programing/proyects/narvar/build/CMakeFiles/rebuild_cache.dir
