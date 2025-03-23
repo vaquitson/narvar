@@ -1,36 +1,29 @@
-CMakeFiles/narvar.dir/src/main.c.o: \
- /home/narval/programing/proyects/narvar/src/main.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
- /usr/include/bits/libc-header-start.h /usr/include/features.h \
- /usr/include/features-time64.h /usr/include/bits/wordsize.h \
- /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
- /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__mbstate_t.h \
- /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/gtk-4.0/gtk/gtk.h \
+CMakeFiles/narvar.dir/src/widgets/narvar.c.o: \
+ /home/narval/programing/proyects/narvar/src/widgets/narvar.c \
+ /usr/include/stdc-predef.h /usr/include/gtk-4.0/gtk/gtk.h \
  /usr/include/gtk-4.0/gtk/css/gtkcss.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/limits.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+ /usr/include/linux/limits.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/pthread_stack_min.h /usr/include/bits/posix2_lim.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
  /usr/include/glib-2.0/glib/glib-visibility.h /usr/include/time.h \
- /usr/include/bits/time.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/time_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/time.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/bits/types/clockid_t.h \
  /usr/include/bits/types/timer_t.h \
@@ -42,14 +35,16 @@ CMakeFiles/narvar.dir/src/main.c.o: \
  /usr/include/glib-2.0/glib/gthread.h \
  /usr/include/glib-2.0/glib/gatomic.h \
  /usr/include/glib-2.0/glib/glib-typeof.h \
- /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h \
- /usr/include/glib-2.0/glib/gutils.h /usr/include/stdlib.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/sys/types.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
+ /usr/include/glib-2.0/glib/gerror.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+ /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/sys/types.h \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct_timeval.h \
  /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
  /usr/include/bits/pthreadtypes-arch.h \
@@ -367,9 +362,13 @@ CMakeFiles/narvar.dir/src/main.c.o: \
  /usr/include/pango-1.0/pango/pango-tabs.h \
  /usr/include/pango-1.0/pango/pango-markup.h \
  /usr/include/pango-1.0/pango/pango-renderer.h \
- /usr/include/pango-1.0/pango/pango-utils.h \
- /usr/include/gtk-4.0/gdk/gdkconfig.h /usr/include/gtk-4.0/gdk/gdkenums.h \
- /usr/include/gtk-4.0/gdk/gdkcairo.h \
+ /usr/include/pango-1.0/pango/pango-utils.h /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/gtk-4.0/gdk/gdkconfig.h \
+ /usr/include/gtk-4.0/gdk/gdkenums.h /usr/include/gtk-4.0/gdk/gdkcairo.h \
  /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h \
@@ -753,4 +752,5 @@ CMakeFiles/narvar.dir/src/main.c.o: \
  /usr/include/gtk-4.0/gtk/gtkwindowcontrols.h \
  /usr/include/gtk-4.0/gtk/gtkwindowgroup.h \
  /usr/include/gtk-4.0/gtk/gtkwindowhandle.h \
- /home/narval/programing/proyects/narvar/./src/widgets/narvar.h
+ /home/narval/programing/proyects/narvar/src/widgets/./narvar.h \
+ /home/narval/programing/proyects/narvar/./src/lib/narvar_errors.h

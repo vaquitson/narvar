@@ -1,8 +1,20 @@
 [
 {
   "directory": "/home/narval/programing/proyects/narvar/build",
-  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6   -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/narvar.dir/src/main.c.o -c /home/narval/programing/proyects/narvar/src/main.c",
+  "command": "/usr/bin/cc  -I/home/narval/programing/proyects/narvar/./src/widgets -I/home/narval/programing/proyects/narvar/./src/lib -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6   -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/narvar.dir/src/main.c.o -c /home/narval/programing/proyects/narvar/src/main.c",
   "file": "/home/narval/programing/proyects/narvar/src/main.c",
   "output": "CMakeFiles/narvar.dir/src/main.c.o"
+},
+{
+  "directory": "/home/narval/programing/proyects/narvar/build",
+  "command": "/usr/bin/cc  -I/home/narval/programing/proyects/narvar/./src/widgets -I/home/narval/programing/proyects/narvar/./src/lib -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6   -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/narvar.dir/src/widgets/narvar.c.o -c /home/narval/programing/proyects/narvar/src/widgets/narvar.c",
+  "file": "/home/narval/programing/proyects/narvar/src/widgets/narvar.c",
+  "output": "CMakeFiles/narvar.dir/src/widgets/narvar.c.o"
+},
+{
+  "directory": "/home/narval/programing/proyects/narvar/build",
+  "command": "/usr/bin/cc  -I/home/narval/programing/proyects/narvar/./src/widgets -I/home/narval/programing/proyects/narvar/./src/lib -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6   -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/narvar.dir/src/lib/narvar_errors.c.o -c /home/narval/programing/proyects/narvar/src/lib/narvar_errors.c",
+  "file": "/home/narval/programing/proyects/narvar/src/lib/narvar_errors.c",
+  "output": "CMakeFiles/narvar.dir/src/lib/narvar_errors.c.o"
 }
 ]

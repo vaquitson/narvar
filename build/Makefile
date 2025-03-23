@@ -129,6 +129,30 @@ narvar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/build
 .PHONY : narvar/fast
 
+src/lib/narvar_errors.o: src/lib/narvar_errors.c.o
+.PHONY : src/lib/narvar_errors.o
+
+# target to build an object file
+src/lib/narvar_errors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/lib/narvar_errors.c.o
+.PHONY : src/lib/narvar_errors.c.o
+
+src/lib/narvar_errors.i: src/lib/narvar_errors.c.i
+.PHONY : src/lib/narvar_errors.i
+
+# target to preprocess a source file
+src/lib/narvar_errors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/lib/narvar_errors.c.i
+.PHONY : src/lib/narvar_errors.c.i
+
+src/lib/narvar_errors.s: src/lib/narvar_errors.c.s
+.PHONY : src/lib/narvar_errors.s
+
+# target to generate assembly for a file
+src/lib/narvar_errors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/lib/narvar_errors.c.s
+.PHONY : src/lib/narvar_errors.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -153,6 +177,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/widgets/narvar.o: src/widgets/narvar.c.o
+.PHONY : src/widgets/narvar.o
+
+# target to build an object file
+src/widgets/narvar.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/widgets/narvar.c.o
+.PHONY : src/widgets/narvar.c.o
+
+src/widgets/narvar.i: src/widgets/narvar.c.i
+.PHONY : src/widgets/narvar.i
+
+# target to preprocess a source file
+src/widgets/narvar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/widgets/narvar.c.i
+.PHONY : src/widgets/narvar.c.i
+
+src/widgets/narvar.s: src/widgets/narvar.c.s
+.PHONY : src/widgets/narvar.s
+
+# target to generate assembly for a file
+src/widgets/narvar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/narvar.dir/build.make CMakeFiles/narvar.dir/src/widgets/narvar.c.s
+.PHONY : src/widgets/narvar.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... narvar"
+	@echo "... src/lib/narvar_errors.o"
+	@echo "... src/lib/narvar_errors.i"
+	@echo "... src/lib/narvar_errors.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/widgets/narvar.o"
+	@echo "... src/widgets/narvar.i"
+	@echo "... src/widgets/narvar.s"
 .PHONY : help
 
 

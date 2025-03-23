@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/narval/programing/proyects/narvar/src/lib/narvar_errors.c" "CMakeFiles/narvar.dir/src/lib/narvar_errors.c.o" "gcc" "CMakeFiles/narvar.dir/src/lib/narvar_errors.c.o.d"
   "/home/narval/programing/proyects/narvar/src/main.c" "CMakeFiles/narvar.dir/src/main.c.o" "gcc" "CMakeFiles/narvar.dir/src/main.c.o.d"
+  "/home/narval/programing/proyects/narvar/src/widgets/narvar.c" "CMakeFiles/narvar.dir/src/widgets/narvar.c.o" "gcc" "CMakeFiles/narvar.dir/src/widgets/narvar.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
